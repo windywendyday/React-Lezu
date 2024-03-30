@@ -1,0 +1,44 @@
+.root{
+    height: 100%;
+    background: white;
+}
+.navHeader{
+    background: white;
+}
+.backHome{
+    margin-top: 30px;
+    text-align: center;
+}
+.backHome :global(a){
+    color: #666;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.formItem{
+    position: relative;
+    margin-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.formItem input{
+    width: 250px;
+    height: 40px;
+    background-color: #e6f2ff;
+}
+.submit{
+    margin-top: 30px;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+}
+.toRegister{
+    margin-top: 30px;
+}
+.error{
+    font-size: 12px;
+    color: #fa5741;
+}

@@ -1,0 +1,19 @@
+.content{
+
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    top: 330px;
+}
+.picker{
+    z-index: 2;
+    top:90px;
+    position: fixed;
+}
+.test{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: #fa5741;
+}
